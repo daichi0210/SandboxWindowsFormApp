@@ -6,5 +6,12 @@ namespace SandboxWindowsFormApp
         {
             InitializeComponent();
         }
+
+        private void buttonDatabase_Click(object sender, EventArgs e)
+        {
+            Database database = new Database();
+            database.Show();
+            this.Hide();
+        }
     }
 }

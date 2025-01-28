@@ -28,12 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            buttonDatabase = new Button();
+            SuspendLayout();
+            // 
+            // buttonDatabase
+            // 
+            buttonDatabase.Location = new Point(12, 12);
+            buttonDatabase.Name = "buttonDatabase";
+            buttonDatabase.Size = new Size(75, 23);
+            buttonDatabase.TabIndex = 0;
+            buttonDatabase.Text = "データベース";
+            buttonDatabase.UseVisualStyleBackColor = true;
+            buttonDatabase.Click += buttonDatabase_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(220, 114);
+            Controls.Add(buttonDatabase);
+            Name = "Form1";
+            Text = "Windowsアプリ開発";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button buttonDatabase;
     }
 }
