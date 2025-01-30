@@ -37,6 +37,7 @@
             ClientSize = new Size(800, 450);
             Name = "Database";
             Text = "データベース";
+            Load += Database_Load;
             ResumeLayout(false);
         }
 
