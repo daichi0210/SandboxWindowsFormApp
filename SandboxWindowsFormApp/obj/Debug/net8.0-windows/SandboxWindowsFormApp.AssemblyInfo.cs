@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SandboxWindowsFormApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+964a836d5fe067ae302e9f83287d7ab67ca97b5d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a39b39b6d26fae611c83be9395bc8d2a0ab7323b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SandboxWindowsFormApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SandboxWindowsFormApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

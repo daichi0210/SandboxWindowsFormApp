@@ -28,10 +28,9 @@
               "RelativeDocumentMoniker": "SandboxWindowsFormApp\\Database.cs",
               "ToolTip": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Database.cs",
               "RelativeToolTip": "SandboxWindowsFormApp\\Database.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAowBUAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T12:55:06.633Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-01-31T13:03:12.183Z",
               "EditorCaption": ""
             },
             {
@@ -43,7 +42,8 @@
               "ToolTip": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Database.cs [\u30C7\u30B6\u30A4\u30F3]",
               "RelativeToolTip": "SandboxWindowsFormApp\\Database.cs [\u30C7\u30B6\u30A4\u30F3]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T12:55:04.765Z"
+              "WhenOpened": "2025-01-30T12:55:04.765Z",
+              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
             }
           ]
         }
