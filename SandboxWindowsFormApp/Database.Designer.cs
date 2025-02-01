@@ -54,6 +54,7 @@
             dataGridViewCategories.Name = "dataGridViewCategories";
             dataGridViewCategories.Size = new Size(240, 150);
             dataGridViewCategories.TabIndex = 0;
+            dataGridViewCategories.SelectionChanged += dataGridViewCategories_SelectionChanged;
             // 
             // categoryIdDataGridViewTextBoxColumn
             // 

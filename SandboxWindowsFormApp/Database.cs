@@ -21,6 +21,7 @@ namespace SandboxWindowsFormApp
         {
             InitializeComponent();
         }
+
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
@@ -42,6 +43,19 @@ namespace SandboxWindowsFormApp
 
             this.dbContext?.Dispose();
             this.dbContext = null;
+        }
+
+        private void dataGridViewCategories_SelectionChanged(object sender, EventArgs e)
+        {
+            if (this.dbContext != null)
+            {
+                var category = (Category)this.dataGridViewCategories.CurrentRow.DataBoundItem;
+
+                if (category != null)
+                {
+                    this.dbContext.Entry(category).Collection(e => e.Products).Load();
+                }
+            }
         }
     }
 }
