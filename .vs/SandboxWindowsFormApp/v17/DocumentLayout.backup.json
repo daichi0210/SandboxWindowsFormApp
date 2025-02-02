@@ -7,24 +7,8 @@
       "RelativeMoniker": "D:0:0:{1C24BC5D-B04D-4971-A417-057A5D1775D1}|SandboxWindowsFormApp\\SandboxWindowsFormApp.csproj|solutionrelative:sandboxwindowsformapp\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C24BC5D-B04D-4971-A417-057A5D1775D1}|SandboxWindowsFormApp\\SandboxWindowsFormApp.csproj|d:\\dev\\windows\\src\\repos\\sandboxwindowsformapp\\sandboxwindowsformapp\\productscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C24BC5D-B04D-4971-A417-057A5D1775D1}|SandboxWindowsFormApp\\SandboxWindowsFormApp.csproj|solutionrelative:sandboxwindowsformapp\\productscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C24BC5D-B04D-4971-A417-057A5D1775D1}|SandboxWindowsFormApp\\SandboxWindowsFormApp.csproj|d:\\dev\\windows\\src\\repos\\sandboxwindowsformapp\\sandboxwindowsformapp\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C24BC5D-B04D-4971-A417-057A5D1775D1}|SandboxWindowsFormApp\\SandboxWindowsFormApp.csproj|solutionrelative:sandboxwindowsformapp\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C24BC5D-B04D-4971-A417-057A5D1775D1}|SandboxWindowsFormApp\\SandboxWindowsFormApp.csproj|D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\sandboxwindowsformapp\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1C24BC5D-B04D-4971-A417-057A5D1775D1}|SandboxWindowsFormApp\\SandboxWindowsFormApp.csproj|d:\\dev\\windows\\src\\repos\\sandboxwindowsformapp\\sandboxwindowsformapp\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C24BC5D-B04D-4971-A417-057A5D1775D1}|SandboxWindowsFormApp\\SandboxWindowsFormApp.csproj|solutionrelative:sandboxwindowsformapp\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C24BC5D-B04D-4971-A417-057A5D1775D1}|SandboxWindowsFormApp\\SandboxWindowsFormApp.csproj|d:\\dev\\windows\\src\\repos\\sandboxwindowsformapp\\sandboxwindowsformapp\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C24BC5D-B04D-4971-A417-057A5D1775D1}|SandboxWindowsFormApp\\SandboxWindowsFormApp.csproj|solutionrelative:sandboxwindowsformapp\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C24BC5D-B04D-4971-A417-057A5D1775D1}|SandboxWindowsFormApp\\SandboxWindowsFormApp.csproj|d:\\dev\\windows\\src\\repos\\sandboxwindowsformapp\\sandboxwindowsformapp\\database.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C24BC5D-B04D-4971-A417-057A5D1775D1}|SandboxWindowsFormApp\\SandboxWindowsFormApp.csproj|solutionrelative:sandboxwindowsformapp\\database.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,60 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Database.Designer.cs",
-              "DocumentMoniker": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Database.Designer.cs",
-              "RelativeDocumentMoniker": "SandboxWindowsFormApp\\Database.Designer.cs",
-              "ToolTip": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Database.Designer.cs",
-              "RelativeToolTip": "SandboxWindowsFormApp\\Database.Designer.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAApwDgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T12:43:20.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductsContext.cs",
-              "DocumentMoniker": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\ProductsContext.cs",
-              "RelativeDocumentMoniker": "SandboxWindowsFormApp\\ProductsContext.cs",
-              "ToolTip": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\ProductsContext.cs",
-              "RelativeToolTip": "SandboxWindowsFormApp\\ProductsContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T12:38:22.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Category.cs",
-              "RelativeDocumentMoniker": "SandboxWindowsFormApp\\Category.cs",
-              "ToolTip": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Category.cs",
-              "RelativeToolTip": "SandboxWindowsFormApp\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T12:38:17.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Product.cs",
-              "RelativeDocumentMoniker": "SandboxWindowsFormApp\\Product.cs",
-              "ToolTip": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Product.cs",
-              "RelativeToolTip": "SandboxWindowsFormApp\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T12:38:09.989Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -96,21 +28,21 @@
               "RelativeDocumentMoniker": "SandboxWindowsFormApp\\Database.cs",
               "ToolTip": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Database.cs",
               "RelativeToolTip": "SandboxWindowsFormApp\\Database.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwEAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T13:03:12.183Z",
+              "WhenOpened": "2025-02-02T11:14:37.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Database.cs [\u30C7\u30B6\u30A4\u30F3]",
               "DocumentMoniker": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Database.cs",
               "RelativeDocumentMoniker": "SandboxWindowsFormApp\\Database.cs",
               "ToolTip": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Database.cs [\u30C7\u30B6\u30A4\u30F3]",
               "RelativeToolTip": "SandboxWindowsFormApp\\Database.cs [\u30C7\u30B6\u30A4\u30F3]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T12:55:04.765Z",
+              "WhenOpened": "2025-02-02T11:14:36.322Z",
               "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
             }
           ]

@@ -8,53 +8,60 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using Microsoft.EntityFrameworkCore;
-using System.ComponentModel;
+using System.Data.SQLite;
 
 namespace SandboxWindowsFormApp
 {
     public partial class Database : Form
     {
-        private ProductsContext? dbContext;
+        // データベースファイルへの接続文字列
+        string connectionString = "Data Source=sample.db;Version=3;";
 
         public Database()
         {
             InitializeComponent();
         }
 
-        protected override void OnLoad(EventArgs e)
+        private void Database_Load(object sender, EventArgs e)
         {
-            base.OnLoad(e);
-
-            this.dbContext = new ProductsContext();
-
-            // Uncomment the line below to start fresh with a new database.
-            // this.dbContext.Database.EnsureDeleted();
-            this.dbContext.Database.EnsureCreated();
-
-            this.dbContext.Categories.Load();
-
-            this.categoryBindingSource.DataSource = dbContext.Categories.Local.ToBindingList();
-        }
-
-        protected override void OnClosing(CancelEventArgs e)
-        {
-            base.OnClosing(e);
-
-            this.dbContext?.Dispose();
-            this.dbContext = null;
-        }
-
-        private void dataGridViewCategories_SelectionChanged(object sender, EventArgs e)
-        {
-            if (this.dbContext != null)
+            // SQLiteの接続を開く
+            using (var connection = new SQLiteConnection(connectionString))
             {
-                var category = (Category)this.dataGridViewCategories.CurrentRow.DataBoundItem;
+                connection.Open(); // データベース接続を開く
 
-                if (category != null)
+                // テーブルがなければ作成するSQL
+                string createTableQuery = "CREATE TABLE IF NOT EXISTS Users (Id INTEGER PRIMARY KEY, Name TEXT)";
+                using (var cmd = new SQLiteCommand(createTableQuery, connection))
                 {
-                    this.dbContext.Entry(category).Collection(e => e.Products).Load();
+                    cmd.ExecuteNonQuery(); // SQL文を実行してテーブルを作成
                 }
+
+                // データを挿入するSQL
+                string insertQuery = "INSERT INTO Users (Name) VALUES (@name)";
+                using (var cmd = new SQLiteCommand(insertQuery, connection))
+                {
+                    cmd.Parameters.AddWithValue("@name", "Taro"); // データを挿入
+                    cmd.ExecuteNonQuery(); // SQL実行
+                }
+
+                // データを取得するSQL
+                string selectQuery = "SELECT * FROM Users";
+
+                // データをDataTableに読み込む
+                using (var cmd = new SQLiteCommand(selectQuery, connection))
+                {
+                    using (SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd))
+                    {
+                        DataTable dataTable = new DataTable();
+                        adapter.Fill(dataTable);  // データをDataTableに埋め込む
+
+                        // DataGridViewにデータをバインドする
+                        dataGridView1.DataSource = dataTable;
+                    }
+                }
+
+                // 接続を閉じる
+                connection.Close();
             }
         }
     }

@@ -50,9 +50,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "System.Data.SQLite": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[1.0.119, )"
             }
           },
           "imports": [
