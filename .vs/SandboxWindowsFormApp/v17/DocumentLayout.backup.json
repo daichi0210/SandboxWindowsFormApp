@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Database.cs",
-              "DocumentMoniker": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Database.cs",
-              "RelativeDocumentMoniker": "SandboxWindowsFormApp\\Database.cs",
-              "ToolTip": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Database.cs",
-              "RelativeToolTip": "SandboxWindowsFormApp\\Database.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAIwEAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T11:14:37.779Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -42,8 +29,21 @@
               "ToolTip": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Database.cs [\u30C7\u30B6\u30A4\u30F3]",
               "RelativeToolTip": "SandboxWindowsFormApp\\Database.cs [\u30C7\u30B6\u30A4\u30F3]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T11:14:36.322Z",
+              "WhenOpened": "2025-02-03T13:09:38.354Z",
               "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Database.cs",
+              "DocumentMoniker": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Database.cs",
+              "RelativeDocumentMoniker": "SandboxWindowsFormApp\\Database.cs",
+              "ToolTip": "D:\\dev\\windows\\src\\repos\\SandboxWindowsFormApp\\SandboxWindowsFormApp\\Database.cs",
+              "RelativeToolTip": "SandboxWindowsFormApp\\Database.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAmwJwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T11:14:37.779Z",
+              "EditorCaption": ""
             }
           ]
         }
